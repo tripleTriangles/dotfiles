@@ -1,0 +1,120 @@
+[
+  {
+    "key": "alt+cmd+l",
+    "command": "editor.action.sortLinesAscending"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.navigateForward"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-workbench.action.terminal.navigationModeFocusNext",
+    "when": "accessibilityModeEnabled && terminalFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-workbench.action.terminal.navigationModeFocusNext",
+    "when": "accessibilityModeEnabled && terminalA11yTreeFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-workbench.action.terminal.scrollToNextCommand",
+    "when": "terminalFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-problems.action.focusProblemsFromFilter",
+    "when": "problemsFilterFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-search.focus.nextInputBox",
+    "when": "inputBoxFocus && searchViewletVisible"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "cmd+right",
+    "command": "-gitlens.key.ctrl+right",
+    "when": "gitlens:key:ctrl+right"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorHasSelection && !editorReadonly"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorHasSelection && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.duplicateSelection",
+    "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.duplicateSelection",
+    "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "-workbench.action.terminal.resizePaneDown",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+cmd+up",
+    "command": "-workbench.action.terminal.resizePaneUp",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+c",
+    "command": "-gitlens.showQuickCommitFileDetails",
+    "when": "editorTextFocus && gitlens:enabled && config.gitlens.keymap == 'alternate'"
+  },
+  {
+    "key": "cmd+[",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "cmd+]",
+    "command": "-workbench.action.navigateForward"
+  }
+]
